@@ -51,7 +51,7 @@ export default class App extends Component {
         />
         {this.state.userInfo.name && (
           <Text style={{fontSize: 16, marginVertical: 16}}>
-            Logged in As {this.state.userInfo.name}
+            Log {this.state.userInfo.name}
           </Text>
         )}
       </View>
